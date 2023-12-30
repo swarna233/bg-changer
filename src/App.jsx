@@ -17,12 +17,12 @@ function App() {
         bg-white px-3 py-2 rounded-3xl"
         >
           <button
-            onClick={() => setColor("brown")}
+            onClick={() => setColor("red")}
             className="outline-none px-4 py-1
           rounded-full text-white shadow-lg"
-            style={{ backgroundColor: "brown" }}
+            style={{ backgroundColor: "red" }}
           >
-            Dark Brown
+            Dark Red
           </button>
           <button
             onClick={() => setColor("blue")}
